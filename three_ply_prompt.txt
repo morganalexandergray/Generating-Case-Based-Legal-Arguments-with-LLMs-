@@ -1,0 +1,135 @@
+TASK
+In this task we are going to be formulating arguments based on legal factors. 
+
+-START LEGAL PROBLEM EXPLANATION-
+In this problem we are concerned with making legal arguments.  We will make these arguments using factors important to trade secret misappropriation claims.  Generally, the Plaintiff is alleging that the Defendant misappropriated its trade secret.  For example, let's consider Kentucky Fried Chicken's original recipe.  The original recipe is a blend of herbs and spices used to season fried chicken.  If an employee working for Kentucky Fried Chicken published the recipe in a cookbook, Kentucky Fried Chicken (Plaintiff) could argue that the employee (Defendant) misappropriated its trade secret (the original recipe) by publishing it in a cookbook. Amongst other things, the Plaintiff might point to an agreement between the Plaintiff and the Defendant, where in the Defendant agreed not to disclose the recipe.  The Defendant, might argue, however, that the defendant had already disclosed its trade secret (the original recipe) to an outsider and therefore, the Defendant should not be liable.  Based on the factors described below, the Plaintiff will first make its argument and the Defendant will respond.
+-END LEGAL PROBLEM EXPLANATION-
+
+-START INSTRUCTIONS-
+Each of the factors described below are either favorable to the Plaintiff (P) or the Defendant (D).  We have provided you with the factor, its meaning, and a rationale. 
+
+Factor; Meaning; Rationale
+F1 Disclosure-in-negotiations (D); P disclosed its product information in negotiations with D; P gave his property away.
+F2 Bribe-employee (P); D paid P’s former employee to switch employment, apparently in an attempt to induce the employee to bring P’s information.; D obtained P’s property through improper means.
+F3 Employee-sole-developer (D); Employee D was the sole developer of P’s product.; D should have property rights in his invention.
+F4 Agreed-not-to-disclose (P); D entered into a nondisclosure agreement with P.; P takes reasonable steps to protect his property.
+F5 Agreement-not-specific (D); The nondisclosure agreement did not specify which information was to be treated as confidential.; P did not specify in what he claims a property interest.
+F6 Security-measures (P); P adopted security measures.; P takes reasonable steps to protect his property.
+F7 Brought-tools (P); P’s former employee brought product development information to D.; D steals P’s property.
+F8 Competitive-advantage (P); D’s access to P’s product information saved it time or expense.; P’s trade secret is valuable property.
+F10 Secrets-disclosed-outsiders (D); P disclosed its product information to outsiders.; P gave his property away.
+F11 Vertical-knowledge (D); P’s information is about customers and suppliers (which means that it may be available independently from customers or even in directories).; P cannot have a property interest in its customer’s business info.
+F12 Outsider-disclosures-restricted (P); P’s disclosures to outsiders were subject to confidentiality restrictions.; P protects his property.
+F13 Noncompetition- agreement (P); P and D entered into a noncompetition agreement.; P protected against former employee’s use of confidential information.
+F14 Restricted-materials-used (P); D used materials that were subject to confidentiality restrictions.; D used P’s property despite P’s protections.
+F15 Unique-product (P); P was the only manufacturer making the product.; P’s trade secret is valuable property.
+F16 Info-reverse-engineerable (D); P’s product information could be learned by reverse-engineering.; P’s property interest is limited in time.
+F17 Info-independently-generated (D); D developed its product by independent research.; P has no property interest in information D generated independently.
+F18 Identical-products (P); D’s product was identical to P’s.; D copied P’s trade secret property.
+F19 No-security-measures (D); P did not adopt any security measures.; P did not protect his property.
+F20 Info-known-to-competitors (D); P’s information was known to competitors.; P cannot have property interest in something known.
+F21 Knew-info-confidential (P); D knew that P’s information was confidential.; D knew P claimed property interest.
+F22 Invasive-techniques (P); D used invasive techniques to gain access to P’s information.; D used invasive techniques to steal P’s property.
+F23 Waiver-of-confidentiality (D); P entered into an agreement waiving confidentiality.; P claimed no property interest in trade secret.
+F24 Info-obtainable-elsewhere (D); The information could be obtained from publicly available sources.; P cannot have property interest in something available from public sources.
+F25 Info-reverse-engineered (D); D discovered P’s information through reverse engineering.; P’s property interest is limited by time.
+F26 Deception (P); D obtained P’s information through deception.; P was cheated of his property
+F27 Disclosure-in-public-forum (D); P disclosed its information in a public forum.; P gave his property interest in the trade secret away.
+
+
+-Begin Argumentation Scheme-
+Based on the facts of an input cases provided below, you will generate a 3-Ply argument about how the input case should be decided.  A 3-Ply Argument takes the following form:
+1. Point for Initiator (plaintiff or defendant)
+2. Response for Responder (side opposing Initiator)
+3. Rebuttal for Initiator 
+
+First, in the Point, Initiator makes an argument about the input case in favor of Initiator’s side, plaintiff or defendant, by citing a citable case (TSC1) and drawing an analogy between the input case and the cited case.  The Initiator also recites the factors in the input scenario that favor the Initiator's side.
+
+	A citable case is one which was decided in favor of the side corresponding to the citer’s side and which shares at least one factor with the citer’s case that favors the citer’s side.
+
+	An analogy between the citer’s case and the cited case is the set of factors the cited case shares with the cited case.
+
+Second, in the Response, Responder distinguishes the case cited by the Initiator, cites a counterexample and draws an analogy between the counterexample and the input case.  
+
+	Distinguishing a cited case from the input case means reciting factors in the cited case that favor the citer’s side that are not present in the input case and factors in the input case that favor the distinguisher’s side that are not present in the cited case.
+
+	A counterexample is a citable case for the Responder such that the cited case’s set of factors shared with the input case is a subset of, or the same set as, the counterexample’s set of factors shared with the input case.
+
+Third, in the Rebuttal, the Initiator distinguishes the Responder’s counterexample from the input case.
+
+
+A case is citable by a side if it shares with the scenario at least one factor that favors that side. 
+
+To construct these arguments you will be provided with Trade Secret Cases (TSC) (we have determined that they are citable given the definition above in the forms of legal cases represented as factors and outcomes).  Using these scenarios, you will devise an argument for an Input Scenario WITHOUT an outcome.  Based on the factors present, you should first make an argument in favor of the Initiator (who could be the Plaintiff or the Defendant).  To do this you should point to TSCs with similar factors and helpful outcomes.  If the Initiator is the Plaintiff you want to point to a TSC with an outcome favorable to the Plaintiff.  When you act as the Responder you will first distinguish the TSC(s) cited by the Initiator, and then cite a trumping counterexample by drawing an analogy between the Input Scenario and the counterexample, where the counterexample's outcome is favorable to the Responder.  From there, you will then rebut the counterexample cited by the Responder. 
+
+A trumping counterexample is defined as follows: The counterexample has the opposite outcome from the opposing side’s cited case and the set of factors the counterexample shares with the scenario is the same as or includes the set of factors the opponent's cited case shares with the scenario.  
+
+When a side distinguishes a TSC cited by the opponent, the side should state all factors in the cited TSC that are not present in the scenario and that favor the opponent.  In addition, the side should state all factors in the scenario that favor the side and that are not present in the cited TSC. 
+
+Here's an example: 
+
+In this scenario, the Initiator will be the Plaintiff and the Responder will be the Defendant.  Here, the defendant makes a Trumping Counterexample.
+
+Example Input Scenario
+    	F1 Disclosure-in-negotiations (D)
+	F4 Agreed-not-to-disclose (P)
+	F6 Security-measures (P)
+	F10 Secrets-disclosed-outsiders (D)
+	F12 Outsider-disclosures-restricted (P)
+	F14 Restricted-materials-used (P)
+	F21 Knew-info-confidential (P)
+
+Example TSC 1
+	outcome Plaintiff
+	F4 Agreed-not-to-disclose (P)
+	F6 Security-measures (P)
+	F7 Brought-tools (P)
+	F8 Competitive-advantage (P)
+	F18 Identical-products (P)
+
+Example TSC 2
+	outcome Defendant
+	F3 Employee-sole-developer (D)
+	F4 Agreed-not-to-disclose (P)
+	F5 Agreement-not-specific (D)
+	F6 Security-measures (P)
+	F21 Knew-info-confidential (P)
+
+
+Plaintiff's Argument:
+Factors F4 Agreed-not-to-disclose (P) and F6 Security-measures (P) were present in TSC 1, where the court found in favor of the Plaintiff.  In Addition, Factors F12 Outsider-disclosures-restricted (P), F14 Restricted-materials-used (P), F21 Knew-info-confidential (P) are present in the current factual scenario and favor the Plaintiff.
+
+Defendant's Argument: 
+TSC1, cited by the plaintiff is distinguishable because factors F7 Brought-tools (P), F8 Competitive-advantage (P), and F18 Identical-products (P) were also present, but are not present in the Input Scenario. In addition, F1 Disclosure-in-negotiations (D) and F10 Secrets-disclosed-outsiders (D) are pro-defendant strengths present in the Input Scenario but not in TSC 1. TSC 2 is a counterexample to TSC 1. In TSC 2, F4 Agreed-not-to-disclose (P), F6 Security-measures (P), and F21 Knew-info-confidential (P) were present and the court found in favor of the Defendant. 
+
+Plaintiff's Rebuttal: 
+TSC2, cited by the Defendant is distinguishable.  In TSC2, the additional factors F5 Agreement-not-specific (D) and F3 Employee-sole-developer (D) were present and are not present here. Also, F12 Outsider-disclosures-restricted (P) and F14 Restricted-materials-used (P) are present in the input case but not in TSC 2.
+
+When drawing analogies it is imperative that you ONLY analogize between the Input Scenario and the factors in the TSC. 
+
+You should follow the 3-ply argumentation scheme strictly; do not include extra text explaining why factors may or may not be useful, just make the argument in a formulaic manner. For example you should NOT include language like: 
+This shows that even if the information was unique, as in the current case, if it can be reverse-engineered, it does not constitute a trade secret.
+
+-End Argumentation Scheme-
+
+-END INSTRUCTIONS-
+
+-START ARGUING-
+
+-EXPECTED OUTPUT-
+Plaintiff's Argument: [Argument in the form of the argument presented as an example above.]
+Defendant's Argument: [Argument in the form of the argument presented as an example above.]
+Plaintiff's Rebuttal: [Rebuttal in the form of the argument presented as an example above.]
+
+$$INITIATOR$$ is the Initiator, argue based on the following scenario.
+
+Input Scenario 
+	$$INPUT FACTORS$$
+
+TSC 1
+	$$TSC1 OUTCOME$$
+	$$TSC1 FACTORS$$
+
+TSC 2
+	$$TSC2 OUTCOME$$
+	$$TSC2 FACTORS$$
